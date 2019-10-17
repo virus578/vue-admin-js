@@ -7,7 +7,9 @@ html {
 .input-xs {width: 100px;}
 .input-s {width: 120px;}
 .input-ms {width: 140px;}
-.input-m {width: 160px;}
+.input-m {
+  width: 160px !important ;
+}
 .input-ml {width: 180px;}
 .input-l {width: 200px;}
 .input-xl {width: 220px;}

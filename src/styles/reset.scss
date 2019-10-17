@@ -1,0 +1,21 @@
+/*修改table的默认样式*/
+.el-table {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td{
+  background-color: $subMenuHover !important;
+  }
+.el-table td{
+  padding: 5px 0 !important;
+}
+.el-table th {
+  padding: 0 !important;
+  background-color: $subMenuHover;
+  color: #333
+}
+
+/*去掉谷歌，火狐下的type="number"中的右边箭头*/
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;
+}
+input[type="number"]{-moz-appearance:textfield;}

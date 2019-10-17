@@ -1,14 +1,17 @@
-// sidebar
+// slider
+$themeBg:#409EFF;
 $menuText:#bfcbd9;
 $menuActiveText:#409EFF;
 $subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+//侧边栏菜单背景
+$menuBg:#fff;
+// 侧边栏菜单hover背景
+$menuHover:rgb(229,242,254);
 
-$menuBg:#304156;
-$menuHover:#263445;
-
-$subMenuBg:#1f2d3d;
-$subMenuHover:#001528;
-
+$subMenuBg: rgb(229,242,254);
+// hover样式
+$subMenuHover:rgb(229,242,254);
+// 侧边栏宽度
 $sideBarWidth: 210px;
 
 // the :export directive is the magic sauce for webpack
@@ -22,4 +25,5 @@ $sideBarWidth: 210px;
   subMenuBg: $subMenuBg;
   subMenuHover: $subMenuHover;
   sideBarWidth: $sideBarWidth;
+  themeBg: $themeBg;
 }
