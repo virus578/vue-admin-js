@@ -47,6 +47,13 @@ module.exports = {
       }
     }
   },
+  css: {
+    loaderOptions: {
+      sass: {
+        data: `@import "@/styles/variables.scss";`
+      }
+    }
+  },
   chainWebpack(config) {
     config.plugins.delete('preload') // TODO: need test
     config.plugins.delete('prefetch') // TODO: need test
