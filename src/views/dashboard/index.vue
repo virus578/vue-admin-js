@@ -10,6 +10,7 @@
 import { mapGetters } from 'vuex'
 import prop from '@/prop'
 import styless from '@/styless'
+import mixin from '@/mixin/mixin'
 
 export default {
   name: 'Dashboard',
@@ -17,6 +18,7 @@ export default {
     prop,
     styless
   },
+  mixins: [mixin],
   data() {
     return {
       prop: 'prop',
