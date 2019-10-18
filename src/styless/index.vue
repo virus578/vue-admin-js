@@ -9,7 +9,7 @@
       <!-- :class="classR"错误 -->
       <p :class="[active, top]">数组</p>
       <p :class="[ isAcitve ? top: '', active]">数组</p>
-      <p :class="[ {top: fasle},active]">数组</p>
+      <p :class="[ {top: false},active]">数组</p>
     </div>
     <div>
       <h3>style</h3>

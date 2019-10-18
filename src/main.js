@@ -12,10 +12,11 @@ import store from './store'
 import router from './router'
 import '@/directives'
 import '@/filters'
+import plugin from '@/plugins'
 
 import '@/icons' // icon
 import '@/permission' // permission control
-
+Vue.use(plugin)
 // set ElementUI lang to EN
 Vue.use(ElementUI, { locale })
 Vue.component('btn', {
