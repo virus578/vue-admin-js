@@ -19,14 +19,6 @@ import '@/permission' // permission control
 Vue.use(plugin)
 // set ElementUI lang to EN
 Vue.use(ElementUI, { locale })
-Vue.component('btn', {
-  data() {
-    return {
-      a: 1
-    }
-  },
-  template: '<button>{{a}}</button>'
-})
 Vue.config.productionTip = false
 // Object.keys(directives).forEach(key => {
 //   Vue.directive(key, (directives)[key])
